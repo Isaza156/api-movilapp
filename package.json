@@ -1,0 +1,36 @@
+{
+  "name": "movial-app",
+  "description": "la nabue",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Academia Geek",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/cold-briu/api-movilapp"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.5",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
